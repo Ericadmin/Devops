@@ -3,8 +3,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import javafx.scene.shape.Path;
-
 public class FileLister {
 
 	public static void main(String[] args) {
