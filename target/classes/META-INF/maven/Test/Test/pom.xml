@@ -7,14 +7,15 @@
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
+        <artifactId>maven-jar-plugin</artifactId>
+<!--         <version>3.5.1</version> -->
         <configuration>
            <source>1.8</source>
             <target>1.8</target>
             <archive>
             <manifest>
                  <addClasspath>true</addClasspath>
+                 <mainClass>com.ericsson.csidp.team7.FileLister</mainClass>
             </manifest>
             </archive>
         </configuration>
